@@ -1,0 +1,9 @@
+node_modules/
+.next/
+.env*
+!.env.example
+.verification/
+verification-report.json
+supabase/.temp/
+supabase/.branches/
+

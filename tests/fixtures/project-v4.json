@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 4,
+  "content": {
+    "services": [
+      {
+        "id": "4bcae2e1-8860-4e43-aaf5-f93f754092d4",
+        "draft": {
+          "title": "Brand strategy",
+          "slug": "",
+          "summary": "A published service for independent verification.",
+          "body": "Research, positioning and a clear direction for your business.",
+          "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=",
+          "imageAlt": "A small owner supplied image"
+        },
+        "published": {
+          "title": "Brand strategy",
+          "slug": "brand-strategy",
+          "summary": "A published service for independent verification.",
+          "body": "Research, positioning and a clear direction for your business.",
+          "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=",
+          "imageAlt": "A small owner supplied image"
+        },
+        "revision": 2,
+        "publishedRevision": 1
+      },
+      {
+        "id": "e3b121e1-c9ee-468b-9716-cc1e7d55ff71",
+        "draft": {
+          "title": "Private draft offering",
+          "slug": "private-draft-offering",
+          "summary": "This unpublished summary must never reach the public website.",
+          "body": "Private draft body used to check content isolation.",
+          "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=",
+          "imageAlt": "Private draft image"
+        },
+        "published": null,
+        "revision": 1,
+        "publishedRevision": null
+      }
+    ]
+  },
+  "id": "955503ff-93cc-41ab-91b4-1c22a19f3e75",
+  "name": "My business website",
+  "updatedAt": "2026-09-27T10:09:37.867Z",
+  "theme": {
+    "accent": "#244c40",
+    "font": "sans"
+  },
+  "shared": {
+    "header": {
+      "id": "b376dc12-0062-44e2-9669-7beb2e6b92e7",
+      "enabled": true,
+      "props": {
+        "brand": "Northline Studio",
+        "linkLabel": "Get in touch",
+        "target": {
+          "pageId": "home",
+          "anchor": "#services"
+        }
+      }
+    },
+    "footer": {
+      "id": "071d1272-bd40-4369-9d28-566a46b0e5de",
+      "enabled": true,
+      "props": {
+        "brand": "Northline Studio",
+        "note": "Made with care. Built to last."
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "home",
+      "name": "Home",
+      "path": "/",
+      "inNavigation": true,
+      "title": "Northline Studio",
+      "description": "Considered design for ambitious people.",
+      "nodes": [
+        {
+          "id": "761f5ada-ecb6-44d4-9373-8760654208aa",
+          "type": "Hero",
+          "props": {
+            "eyebrow": "A small studio with a considered approach",
+            "title": "Good ideas deserve\na clear direction.",
+            "description": "We help ambitious businesses find their voice and build a presence that feels like them.",
+            "image": "",
+            "imageAlt": "",
+            "layout": "split"
+          }
+        },
+        {
+          "id": "d2c2b83a-df0a-4299-a5a2-40d2d9be147a",
+          "type": "Services",
+          "props": {
+            "title": "A little clarity goes a long way.",
+            "description": "From the first conversation to the final detail.",
+            "items": [
+              {
+                "title": "Strategy",
+                "description": "A focused foundation for the work ahead. Clear goals, a shared direction, and room to explore."
+              },
+              {
+                "title": "Identity",
+                "description": "A visual language with character. Built around who you are and where you want to go."
+              },
+              {
+                "title": "Digital",
+                "description": "Useful, considered experiences that bring your story to the right people."
+              }
+            ],
+            "mobile": 1,
+            "tablet": 2,
+            "desktop": 3,
+            "gap": 24
+          }
+        },
+        {
+          "id": "proof-layout",
+          "type": "Section",
+          "props": {
+            "padding": {
+              "mobile": 24,
+              "tablet": 40,
+              "desktop": 64
+            },
+            "width": "wide",
+            "tone": "soft"
+          },
+          "children": [
+            {
+              "id": "proof-columns",
+              "type": "Columns",
+              "props": {
+                "layout": {
+                  "mobile": "stack",
+                  "tablet": "halves",
+                  "desktop": "one-two"
+                },
+                "gap": {
+                  "mobile": 12,
+                  "tablet": 20,
+                  "desktop": 32
+                },
+                "align": "center"
+              },
+              "children": [
+                {
+                  "id": "proof-left",
+                  "type": "Column",
+                  "props": {
+                    "gap": {
+                      "mobile": 12,
+                      "tablet": 20
+                    },
+                    "align": "start"
+                  },
+                  "children": [
+                    {
+                      "id": "proof-heading",
+                      "type": "Heading",
+                      "props": {
+                        "text": "Built around your story",
+                        "level": "h2",
+                        "size": "large",
+                        "align": "left"
+                      }
+                    },
+                    {
+                      "id": "proof-paragraph",
+                      "type": "Paragraph",
+                      "props": {
+                        "text": "A nested layout with real responsive controls, independent assets and a working page link.",
+                        "align": "left"
+                      }
+                    },
+                    {
+                      "id": "proof-button",
+                      "type": "Button",
+                      "props": {
+                        "label": "Explore our approach",
+                        "target": {
+                          "pageId": "ca2793ab-cb3a-4290-a4eb-561d02e6392d",
+                          "anchor": "#top"
+                        },
+                        "variant": "outline",
+                        "shape": "pill",
+                        "motion": "lift"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "proof-right",
+                  "type": "Column",
+                  "props": {
+                    "gap": {
+                      "mobile": 16
+                    },
+                    "align": "center"
+                  },
+                  "children": [
+                    {
+                      "id": "proof-image",
+                      "type": "Image",
+                      "props": {
+                        "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=",
+                        "alt": "A small local test image",
+                        "ratio": "landscape",
+                        "radius": "soft"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "proof-service-collection",
+          "type": "ServiceCollection",
+          "props": {
+            "title": "Explore our services",
+            "description": "Published services from an owner-controlled CMS.",
+            "mobile": 1,
+            "tablet": 2,
+            "desktop": 3,
+            "gap": 24
+          }
+        }
+      ]
+    },
+    {
+      "id": "5347ba21-f542-45cf-93ed-5488c9692bdc",
+      "name": "About",
+      "path": "/about",
+      "inNavigation": true,
+      "title": "About our independent studio",
+      "description": "A second page with its own search description.",
+      "nodes": [
+        {
+          "id": "9641ede7-d0e1-4755-ac7f-2264628294cf",
+          "type": "Hero",
+          "props": {
+            "eyebrow": "",
+            "title": "About",
+            "description": "Tell your story here.",
+            "image": "",
+            "imageAlt": "",
+            "layout": "statement"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ca2793ab-cb3a-4290-a4eb-561d02e6392d",
+      "name": "Our approach",
+      "path": "/about/approach",
+      "inNavigation": false,
+      "title": "Our approach",
+      "description": "",
+      "nodes": [
+        {
+          "id": "42ffd00a-8251-4a51-837c-569a8eb2acb1",
+          "type": "Hero",
+          "props": {
+            "eyebrow": "",
+            "title": "Our approach",
+            "description": "Tell your story here.",
+            "image": "",
+            "imageAlt": "",
+            "layout": "statement"
+          }
+        }
+      ]
+    }
+  ]
+}

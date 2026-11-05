@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "contentHash": "c4f948afd6ec647a82a703b24c9d0212ed3a39c0e414f2065de78713343c51c3",
+  "checks": [
+    "external-network-blocked",
+    "public-registration-disabled",
+    "active-owner-and-ordinary-test-sessions",
+    "role-escalation-denied",
+    "responsive-nested-layouts",
+    "nested-content-order",
+    "nested-button-navigation",
+    "reduced-motion-respected",
+    "responsive-public-website",
+    "all-page-routes-and-metadata",
+    "shared-navigation",
+    "unknown-page-404",
+    "notification-failure-preserves-message",
+    "bounded-form-payload",
+    "database-persistence",
+    "administrator-login-and-inbox",
+    "mark-read",
+    "unauthorized-access-denied",
+    "cross-origin-rejected",
+    "input-validation",
+    "atomic-rate-limit",
+    "email-unconfigured-preserves-message",
+    "unused-cms-backend-absent"
+  ],
+  "modulesVerified": [
+    "contact",
+    "admin-inbox"
+  ],
+  "pagesVerified": [
+    "/",
+    "/about",
+    "/about/approach"
+  ],
+  "layoutPagesVerified": [
+    "/"
+  ],
+  "cmsPagesVerified": [],
+  "checkedAt": "2026-09-27T13:42:27.328Z"
+}

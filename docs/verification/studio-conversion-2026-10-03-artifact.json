@@ -1,0 +1,15 @@
+{
+  "archive": ".artifacts/phase-3/accepted-converted-export.zip",
+  "archiveSha256": "4565e6f5c851022da3b2a4765fa3aeb5614b6acf1939cdf1f62bebe93ce25abe",
+  "manifestContentHash": "10cbf0d306fb7b4811994bec327e252a42b42ea5d0e175d9474c88f0fbd8a0a2",
+  "manifestFiles": 64,
+  "projectId": "c8179198-36d2-4d68-8f5e-83adb2f8896f",
+  "convertedPageId": "ad65536b-07d5-4a38-b7af-cf964d769d70",
+  "convertedPath": "/designed-page",
+  "backupSha256": "e83b3522f37af7e71d06d3f61bf17783952a39ede31441b3a60489963057810a",
+  "separatelyDownloadedBackupMatches": true,
+  "verificationReport": "docs/verification/studio-conversion-2026-10-03.json",
+  "verificationReportSha256": "428226b5edd9e74dae77f248d80b40c12b57e15042e053a8b5f525ee019725de",
+  "checksPassed": 26,
+  "checkedAt": "2026-10-03T18:24:21.760Z"
+}

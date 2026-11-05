@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "contentHash": "6e1867c5837afab89946ccc7589f83013f1c2a5a0a56fbea0adb8fb5973668a8",
+  "checks": [
+    "external-network-blocked",
+    "responsive-nested-layouts",
+    "nested-content-order",
+    "nested-button-navigation",
+    "reduced-motion-respected",
+    "responsive-public-website",
+    "all-page-routes-and-metadata",
+    "shared-navigation",
+    "unknown-page-404",
+    "public-registration-disabled",
+    "notification-failure-preserves-message",
+    "bounded-form-payload",
+    "database-persistence",
+    "administrator-login-and-inbox",
+    "mark-read",
+    "unauthorized-access-denied",
+    "role-escalation-denied",
+    "cross-origin-rejected",
+    "input-validation",
+    "atomic-rate-limit",
+    "email-unconfigured-preserves-message"
+  ],
+  "pagesVerified": [
+    "/",
+    "/about",
+    "/about/approach"
+  ],
+  "layoutPagesVerified": [
+    "/"
+  ],
+  "checkedAt": "2026-09-27T08:26:39.815Z"
+}

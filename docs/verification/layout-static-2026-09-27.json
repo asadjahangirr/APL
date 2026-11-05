@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "contentHash": "cb18fb35fa1ad66b649e57afe314fd9d75d712f04b243711ecb69b527d809613",
+  "checks": [
+    "external-network-blocked",
+    "responsive-nested-layouts",
+    "nested-content-order",
+    "nested-button-navigation",
+    "reduced-motion-respected",
+    "responsive-public-website",
+    "all-page-routes-and-metadata",
+    "shared-navigation",
+    "unknown-page-404",
+    "unused-backend-absent"
+  ],
+  "pagesVerified": [
+    "/",
+    "/about",
+    "/about/approach"
+  ],
+  "layoutPagesVerified": [
+    "/"
+  ],
+  "checkedAt": "2026-09-27T08:23:19.052Z"
+}

@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "contentHash": "aa1b039723739bb5ef4bc85b4316901afe41eda485a1a48028cf9648210ce598",
+  "checks": [
+    "external-network-blocked",
+    "public-registration-disabled",
+    "active-owner-and-ordinary-test-sessions",
+    "role-escalation-denied",
+    "initial-content-import",
+    "responsive-nested-layouts",
+    "nested-content-order",
+    "nested-button-navigation",
+    "reduced-motion-respected",
+    "responsive-public-website",
+    "all-page-routes-and-metadata",
+    "shared-navigation",
+    "unknown-page-404",
+    "unused-contact-backend-absent",
+    "unused-cms-backend-absent",
+    "unused-portfolio-backend-absent",
+    "cms-private-seed-and-source-not-served",
+    "cms-seed-draft-private",
+    "cms-responsive-listing-and-details",
+    "cms-authorization-and-draft-isolation",
+    "cms-origin-validation-and-payload-limits",
+    "cms-unsaved-edit-guards",
+    "cms-admin-save-draft-preserves-publication",
+    "cms-admin-publish-updates-public-site",
+    "cms-safe-text-rendering",
+    "cms-atomic-revision-conflicts",
+    "cms-unique-published-slugs",
+    "cms-private-image-upload-and-validation",
+    "cms-published-image-only",
+    "cms-reimport-preserves-owner-data",
+    "cms-unpublish-removes-public-access-keeps-draft",
+    "cms-missing-credentials-useful-setup-error"
+  ],
+  "modulesVerified": [
+    "articles-cms",
+    "admin-articles"
+  ],
+  "pagesVerified": [
+    "/",
+    "/about",
+    "/about/approach"
+  ],
+  "layoutPagesVerified": [
+    "/"
+  ],
+  "cmsPagesVerified": [],
+  "portfolioPagesVerified": [],
+  "articlePagesVerified": [
+    "/articles",
+    "/articles/considered-approach"
+  ],
+  "checkedAt": "2026-09-28T10:26:35.234Z"
+}

@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "contentHash": "57c6e0e06a7e71b6d4519e7a8d8985ebc4319bfdf89616e4a1f1edc7be98aa61",
+  "checks": [
+    "external-network-blocked",
+    "public-registration-disabled",
+    "active-owner-and-ordinary-test-sessions",
+    "role-escalation-denied",
+    "initial-content-import",
+    "responsive-nested-layouts",
+    "nested-content-order",
+    "nested-button-navigation",
+    "reduced-motion-respected",
+    "responsive-public-website",
+    "all-page-routes-and-metadata",
+    "shared-navigation",
+    "unknown-page-404",
+    "unused-contact-backend-absent",
+    "cms-private-seed-and-source-not-served",
+    "cms-seed-draft-private",
+    "cms-responsive-listing-and-details",
+    "cms-authorization-and-draft-isolation",
+    "cms-origin-validation-and-payload-limits",
+    "cms-unsaved-edit-guards",
+    "cms-admin-save-draft-preserves-publication",
+    "cms-admin-publish-updates-public-site",
+    "cms-safe-text-rendering",
+    "cms-atomic-revision-conflicts",
+    "cms-unique-published-slugs",
+    "cms-private-image-upload-and-validation",
+    "cms-published-image-only",
+    "cms-reimport-preserves-owner-data",
+    "cms-unpublish-removes-public-access-keeps-draft",
+    "cms-missing-credentials-useful-setup-error"
+  ],
+  "modulesVerified": [
+    "services-cms",
+    "admin-services"
+  ],
+  "pagesVerified": [
+    "/",
+    "/about",
+    "/about/approach"
+  ],
+  "layoutPagesVerified": [
+    "/"
+  ],
+  "cmsPagesVerified": [
+    "/services",
+    "/services/brand-strategy"
+  ],
+  "checkedAt": "2026-09-27T10:15:38.154Z"
+}

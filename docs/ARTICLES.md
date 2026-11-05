@@ -1,0 +1,11 @@
+# Articles CMS batch
+
+Articles are an optional full-stack module. Add **Articles collection (CMS)** to a page, then open **Articles content**. Each article has a title, URL slug, summary, plain-text body, and optional image with alternative text. The builder stores a private draft and a separate published snapshot. **Save draft** never changes the public version; **Publish** copies the saved draft. **Unpublish** removes public access while keeping the draft. The editor preview is sample behavior.
+
+The four collection designs are Journal, Covers, Reading list, and Spotlight. The grid designs use separate mobile, tablet, and desktop column values. Reading list intentionally uses one row per article, preserving the saved grid settings for another design. Theme colors and optional motion apply through the shared renderer. Article cards open `/articles/[slug]` on the exported website; the editor preview routes to the same sample detail view.
+
+An export with an Articles collection contains the public listing/detail routes, Next.js server handlers, administrator interface, validated draft/publication logic, private image endpoints, Supabase migration and storage bucket, initial-content importer, owner setup guide, and isolated runtime tests. The exported site uses only the owner's credentials. Article drafts and seed images stay out of public site data and public assets. The importer only inserts missing record IDs, so a later design export does not overwrite live edits.
+
+The first release uses paragraph-formatted plain text, not arbitrary HTML. Published URL slugs must be unique. Changing a slug has no automatic redirect. Search, tags, categories, scheduled publishing, pagination, and collaborative author roles remain later work. The builder currently allows 50 local article records per project; the exported admin allows 200. These are prototype bounds, not cloud-account quotas.
+
+Owner setup and operation are documented inside selected exports in `docs/ARTICLES.md` and `SETUP.md`. A generated project is labeled verification required until its own `npm run verify` succeeds in a clean isolated environment. Independent security and recovery review remains necessary before collecting real customer data.

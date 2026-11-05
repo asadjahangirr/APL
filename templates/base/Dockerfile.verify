@@ -1,0 +1,15 @@
+FROM node:24-bookworm-slim
+WORKDIR /app
+# Cache the pinned browser independently of a site's name or dependency lock.
+# Keep this CLI version aligned with @playwright/test in package.json.
+RUN npx --yes --package=@playwright/test@1.63.0 playwright install --with-deps --only-shell chromium
+COPY package*.json ./
+RUN npm ci
+COPY . .
+ARG NEXT_PUBLIC_SUPABASE_URL
+ARG NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY
+ENV NEXT_PUBLIC_SUPABASE_URL=$NEXT_PUBLIC_SUPABASE_URL
+ENV NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=$NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY
+RUN npm run build
+CMD ["node","tests/independent.mjs"]
+
