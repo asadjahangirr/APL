@@ -1,8 +1,0 @@
-{
-  "status": "passed",
-  "contentHash": "a8c2391a1c26eecc47c8fca26d8508653d36c66cbf2e8fb311668ab4cee274d6",
-  "sourceFiles": 77,
-  "zipEntries": 78,
-  "checks": 42,
-  "regeneratedSourceMatchesZIP": true
-}
